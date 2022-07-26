@@ -1,0 +1,335 @@
+*{ 
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+     font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(104, 99, 95);
+    overflow-x: hidden;
+    padding-left: 300px;
+}
+.exit{ margin-left: -120px; margin-top: -10px; margin-bottom: 300px;}
+.exit button{ width: auto; box-shadow: none; background: rgb(201, 200, 200);}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 350px;
+    background: #b5b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.image{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 3rem;
+    border: 7px solid var(--blue);
+}
+.name{
+    font-size: 4rem;
+    color: rgb(7, 7, 7);
+}
+.post{
+    font-size: 20px;
+    color: rgb(54, 22, 22);
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    padding: 10px 30px;
+}
+.navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background:#333;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.navbar ul li a:hover{ transform: scale(1.06);
+    background: rgb(62, 60, 205);
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+    margin-left: 0;
+    /* background-image: url('   https://jbsoftware.ca/wp-content/uploads/web-design.jpg'); */
+}
+.home{
+    display: flex;
+    color: rgb(5, 5, 5);
+    justify-content: center;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 0 15rem;
+    flex-flow: column;
+}
+.home h3{ font-size: 30px;
+    margin-bottom: 30px;
+}
+.home h1{  margin-bottom: 20px;
+    font-size: 40px;
+}
+.home h1 span { margin-left: 10px;
+   
+    font-size: 60px;
+    color: rgb(9, 17, 241);
+}
+.home p{
+    font-size: 20px;
+    text-transform: none;
+}
+ 
+ 
+.heading{
+     text-align: center;
+     margin: 0 6rem;
+     padding: 1 rem ;
+     border-bottom: .1rem solid #fff5;
+     color: rgb(246, 4, 226);
+     font-size: 4rem;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.info{
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+    font-size: 2rem;
+    color:  rgb(0, 0, 0);
+    font-weight: 2000;
+}
+.info h3{ 
+    padding: 15px;
+}
+.info h3 span{ margin-right: 10px;
+   color: rgb(60, 5, 238);  
+}
+ 
+
+.education{
+    margin: 90px auto;
+    width: 360px;
+    
+     
+    border-left: 2px solid rgb(44, 9, 243);
+    padding: 0 20px 0 30px;
+    float: left;
+    margin-left: 60px;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px ;
+    font-size: 16px;
+    border: 1px solid rgb(238, 230, 230);
+     line-height:1.7;
+    position: relative;
+    height: 250px;
+    margin-bottom: 20px;
+    transition: 1s;
+    box-shadow: 10px 5px 10px 1px rgba(0,0,0,1); 
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box1:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 3px solid #ddd;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+.box1 h3{
+    color: brown;
+}
+.box1 h2{
+    color: rgb(72, 23, 247);
+}
+.box1 h4{
+    color: rgb(245, 14, 183);
+}
+
+.suresh{
+    display: flex;
+    background-color: #ccc;
+}
+.container{  width: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+.cards{
+    width: 25%;
+    margin: 30px;
+    background-color:  darkgray;
+    border: none;
+    padding: 20px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+ }
+ .cards:hover{
+     transform: scale(1.1);
+ }
+      
+
+.images img{
+    width: 100%;
+}
+.title{ margin: 8px;
+    
+    text-align: center;
+}
+.title h1{ 
+    font-size: x-large;
+}
+ 
+.des{
+    text-align: center;
+}
+.des p{
+    font-size: 20px;
+}
+
+ button{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+}
+section{background:#ccc;
+
+}
+
+.myskills{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 15px;  
+}
+.myskills h1{
+    text-align: center; color: #9c0fed; font-size: 35px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myskills li{
+    margin: 50px 0;
+    
+
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 30px;
+    border: 1px solid  rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px ;
+}
+.bar:hover{ transform: scale(1.05);}
+.bar span{
+    text-align: center;
+    font-size: large;
+    height: 30px;
+    float: left;
+    background: #2187e7b3;
+}
+.C{
+    width: 78%;
+}
+.Cpp{
+    width: 75%;
+}
+.HTML{
+    width: 88%;
+}
+.CSS{
+    width: 82%;
+}
+.others{
+    width: 85%;
+}
+.contact{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    width: 400px;
+    border-radius: 8px;
+    height: 500px;
+    margin-left: 550px;
+    background-color: #cecfd2;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+     
+}
+.fullname, .email, .message ,.btn{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+.contact label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.contact input{
+    padding: 12px;
+    width:350px ;
+    border-radius: 20px;
+}.contact input:hover{ border: 2px solid #9c0fed;}
+button{
+    width: 150px;
+    padding: 12px;
+    font-size: large;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 10px 3px rgb(71, 19, 160);
+    background: rgb(72, 23, 247);
+}
+.cinfo{ display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.cinfo .icon{
+    width: 2%; margin: 10px; transition: 1s;
+}
+.cinfo .icon:hover{ transform: scale(1.1);
+ border:2px solid black ;
+border-radius: 8px ;
+}
+.cinfo .icon img{
+    width: 100%;
+}
+
+ 
+ 

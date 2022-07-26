@@ -1,0 +1,34 @@
+body {
+  background-image: url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.wide.jpeg");
+  /* background-image: url(' https://th.bing.com/th/id/R.f1b40ff9617a4dcf9bfc115ef6f274b6?rik=Kyix4mwOg3byDg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f4%2f7%2f489350.jpg&ehk=ZRTQWSuOY0h3f9TmPWOIeKO67sElI4mrIQ1w8LNeY5M%3d&risl=&pid=ImgRaw&r=0'); */
+  /* background-image: url('https://jbsoftware.ca/wp-content/uploads/web-design.jpg'); */
+}
+ .profile{ text-align: center; margin-top: 200px; 
+    font-family: cursive;
+}
+img{
+    height: 200px; width: 200px;margin-bottom: 20px;
+}
+h1,h2{font-weight: 900; 
+  color: white;
+}
+.navbar-brand{
+    color: rgb(26, 11, 235);
+}
+ 
+
+.nav-link {  
+  font-size: large;
+}
+.nav-item:hover {
+  background: rgb(26, 26, 24);
+  border-radius: 40px;
+  
+   
+}
+ 
+#profile {
+  margin-top: 300px;
+}
+
+ 
